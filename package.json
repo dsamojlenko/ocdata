@@ -1,0 +1,12 @@
+{
+    "name": "ocdata",
+    "description": "OC Data Application",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+          "express": ">= 3.x"
+        , "mongodb": ">=0.9.9-4"
+        , "async": ">= 0.1.16"
+        , "mongoose": ">= 3.x"
+    }
+}
