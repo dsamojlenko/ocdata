@@ -3,7 +3,7 @@ var mongoose = require('mongoose')
 
 var Stop = mongoose.model('Stop', new Schema({
     stop_id           :  { type: String, index: true }
-  , stop_code         :  { type: String }
+  , stop_code         :  { type: Number }
   , stop_name         :  { type: String }
   , stop_desc         :  { type: String }
   , stop_lat          :  { type: Number }
