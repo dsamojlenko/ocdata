@@ -1,2 +1,4 @@
 .DS_Store
 notes.txt
+node_modules
+data_import
