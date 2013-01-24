@@ -11,7 +11,3 @@ mongoose.model('StopTime', new Schema({
   , pickup_type       :  { type: String }
   , drop_off_type     :  { type: String }
 }, {collection: 'stoptimes'},{ strict: true }));
-
-
-
-// get: utils.secondsToTime, set: utils.timeToSeconds
