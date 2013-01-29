@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
   , Schema = mongoose.Schema;
   	
-mongoose.model('Calendar', new Schema({
+module.exports = mongoose.model('Calendar', new Schema({
     service_id        :  { type: String }
   , monday            :  { type: Number }
   , tuesday           :  { type: Number }

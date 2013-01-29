@@ -10,12 +10,14 @@ var env = process.env.NODE_ENV || 'development'
 mongoose.connect(config.db)
 
 // Bootstrap models
+/*
 var models_path = __dirname + '/models'
 fs.readdirSync(models_path).forEach(function (file) {
 	if(file != '.DS_Store') {
 		require(models_path+'/'+file)
 	}
 })
+*/
 
 var app = express()
 // express settings

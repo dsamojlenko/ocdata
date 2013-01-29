@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
   , Schema = mongoose.Schema;
   	
-mongoose.model('Stop', new Schema({
+module.exports = mongoose.model('Stop', new Schema({
     stop_id           :  { type: String, index: true }
   , stop_code         :  { type: Number }
   , stop_name         :  { type: String }
